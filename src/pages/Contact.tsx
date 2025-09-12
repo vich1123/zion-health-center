@@ -11,9 +11,9 @@ const Contact = () => {
       icon: Phone,
       title: "Phone Numbers",
       details: [
-        "Main Reception: +1 (555) 123-4567",
-        "Emergency: +1 (555) 911-0000",
-        "Appointments: +1 (555) 123-4568"
+        "Main Reception: 9444509509",
+        "Emergency: 9444509509",
+        "Appointments: 9444509509"
       ]
     },
     {
@@ -29,18 +29,17 @@ const Contact = () => {
       icon: MapPin,
       title: "Location",
       details: [
-        "123 Healthcare Avenue",
-        "Medical District, City 12345",
-        "United States"
+        "Block: 5, NO: 76, Kodungaiyur (East)",
+        "Kaviarasu Kannadhasan Nagar",
+        "Chennai, Tamil Nadu 600118"
       ]
     },
     {
       icon: Clock,
       title: "Operating Hours",
       details: [
-        "Monday - Friday: 8:00 AM - 8:00 PM",
-        "Saturday: 9:00 AM - 5:00 PM",
-        "Sunday: 10:00 AM - 4:00 PM"
+        "Monday to Saturday: 10AM to 2PM, 6PM to 10PM",
+        "Sunday: Closed"
       ]
     }
   ];
@@ -209,7 +208,7 @@ const Contact = () => {
                     Interactive Map Coming Soon
                   </p>
                   <p className="text-muted-foreground">
-                    123 Healthcare Avenue, Medical District
+                    Block: 5, NO: 76, Kodungaiyur (East), Kaviarasu Kannadhasan Nagar, Chennai, Tamil Nadu 600118
                   </p>
                   <Button variant="outline" className="mt-4">
                     Get Directions

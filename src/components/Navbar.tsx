@@ -22,9 +22,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-medical-gradient rounded-full flex items-center justify-center">
-              <Heart className="w-5 h-5 text-white" />
-            </div>
+            <img 
+              src="/lovable-uploads/a1c82b9e-e4c2-4e01-92c4-5485a00063c1.png" 
+              alt="Zion Health Center Logo" 
+              className="w-8 h-8"
+            />
             <span className="text-xl font-semibold text-primary">
               Zion Health Center
             </span>

@@ -9,9 +9,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-medical-gradient rounded-full flex items-center justify-center">
-                <Heart className="w-5 h-5 text-white" />
-              </div>
+              <img 
+                src="/lovable-uploads/a1c82b9e-e4c2-4e01-92c4-5485a00063c1.png" 
+                alt="Zion Health Center Logo" 
+                className="w-8 h-8"
+              />
               <span className="text-xl font-semibold text-primary">
                 Zion Health Center
               </span>
@@ -29,13 +31,13 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  123 Healthcare Ave, Medical District
+                  Block: 5, NO: 76, Kodungaiyur (East), Kaviarasu Kannadhasan Nagar, Chennai, Tamil Nadu 600118
                 </span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
                 <span className="text-sm text-muted-foreground">
-                  +1 (555) 123-4567
+                  9444509509
                 </span>
               </div>
               <div className="flex items-center space-x-3">
@@ -54,9 +56,8 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Clock className="w-5 h-5 text-primary" />
                 <div className="text-sm text-muted-foreground">
-                  <div>Mon - Fri: 8:00 AM - 8:00 PM</div>
-                  <div>Sat: 9:00 AM - 5:00 PM</div>
-                  <div>Sun: 10:00 AM - 4:00 PM</div>
+                  <div>Monday to Saturday: 10AM to 2PM, 6PM to 10PM</div>
+                  <div>Sunday: Closed</div>
                 </div>
               </div>
             </div>
