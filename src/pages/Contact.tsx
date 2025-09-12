@@ -11,18 +11,18 @@ const Contact = () => {
       icon: Phone,
       title: "Phone Numbers",
       details: [
-        "Main Reception: 9444509509",
-        "Emergency: 9444509509",
-        "Appointments: 9444509509"
+        "Main Reception: 044 2554 5600",
+        "Emergency: 044 2554 5600",
+        "Appointments: 044 2554 5600"
       ]
     },
     {
       icon: Mail,
       title: "Email Addresses",
       details: [
-        "General: info@zionhealth.com",
-        "Appointments: appointments@zionhealth.com",
-        "Emergency: emergency@zionhealth.com"
+        "General: Mgs@zionhealthcentre.in",
+        "Appointments: Mgs@zionhealthcentre.in",
+        "Emergency: Mgs@zionhealthcentre.in"
       ]
     },
     {
