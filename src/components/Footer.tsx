@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <img 
-                src="/lovable-uploads/a1c82b9e-e4c2-4e01-92c4-5485a00063c1.png" 
+                src="/lovable-uploads/f40e3d56-9a6b-46e1-a440-7bc0d3aa7096.png" 
                 alt="Zion Health Center Logo" 
                 className="w-8 h-8"
               />
