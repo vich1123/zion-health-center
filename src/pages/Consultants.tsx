@@ -59,7 +59,7 @@ const Consultants = () => {
     },
     {
       id: 5,
-      name: "Dr. Sugantha Valli",
+      name: "Dr. M. Sugantha Valli",
       specialty: "Radiology & Microbiology",
       experience: "12+ years",
       education: "M.B.B.S., M.D.",
