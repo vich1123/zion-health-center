@@ -15,87 +15,45 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      title: "Modern Reception Area",
-      category: "facilities",
-      description: "Our welcoming reception area with comfortable seating",
-      image: "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=500&h=400&fit=crop"
+      title: "Senior Consultant",
+      category: "staff",
+      description: "Experienced medical consultant providing expert care",
+      image: "/staff/doctor-1.jpg"
     },
     {
       id: 2,
-      title: "Advanced MRI Scanner",
-      category: "equipment",
-      description: "State-of-the-art MRI imaging technology",
-      image: "https://images.unsplash.com/photo-1583912086096-8c60d75d3ad3?w=500&h=400&fit=crop"
+      title: "Chief Medical Officer",
+      category: "staff",
+      description: "Senior physician with extensive clinical experience",
+      image: "/staff/doctor-2.jpg"
     },
     {
       id: 3,
-      title: "Emergency Department",
-      category: "facilities",
-      description: "24/7 emergency care facility",
-      image: "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=500&h=400&fit=crop"
+      title: "General Physician",
+      category: "staff",
+      description: "Dedicated family physician providing comprehensive care",
+      image: "/staff/doctor-3.jpg"
     },
     {
       id: 4,
-      title: "Surgical Suite",
-      category: "facilities",
-      description: "Modern operating theater with advanced equipment",
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=500&h=400&fit=crop"
+      title: "Surgical Specialist",
+      category: "staff",
+      description: "Expert surgeon ready for complex procedures",
+      image: "/staff/surgeon.jpg"
     },
     {
       id: 5,
-      title: "Medical Team Meeting",
-      category: "staff",
-      description: "Our dedicated medical professionals in consultation",
-      image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500&h=400&fit=crop"
+      title: "Modern Operation Theater",
+      category: "facilities",
+      description: "State-of-the-art surgical suite with advanced technology",
+      image: "/facilities/operation-theater.jpg"
     },
     {
       id: 6,
-      title: "Ultrasound Equipment",
+      title: "Surgical Microscope",
       category: "equipment",
-      description: "High-resolution ultrasound diagnostic equipment",
-      image: "https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=500&h=400&fit=crop"
-    },
-    {
-      id: 7,
-      title: "Patient Room",
-      category: "facilities",
-      description: "Comfortable private patient rooms",
-      image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=500&h=400&fit=crop"
-    },
-    {
-      id: 8,
-      title: "Nursing Staff",
-      category: "staff",
-      description: "Our caring and professional nursing team",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=400&fit=crop"
-    },
-    {
-      id: 9,
-      title: "Health Fair Event",
-      category: "events",
-      description: "Community health screening event",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=500&h=400&fit=crop"
-    },
-    {
-      id: 10,
-      title: "Laboratory",
-      category: "facilities",
-      description: "Fully equipped diagnostic laboratory",
-      image: "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=500&h=400&fit=crop"
-    },
-    {
-      id: 11,
-      title: "CT Scanner",
-      category: "equipment",
-      description: "Advanced CT imaging technology",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=400&fit=crop"
-    },
-    {
-      id: 12,
-      title: "Medical Conference",
-      category: "events",
-      description: "Annual medical conference and continuing education",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=400&fit=crop"
+      description: "High-precision surgical microscope for detailed procedures",
+      image: "/equipment/surgical-microscope.jpg"
     }
   ];
 
